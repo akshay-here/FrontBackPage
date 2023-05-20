@@ -1,0 +1,50 @@
+.coverpage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.logo {
+    background-color: #04D9FF;
+    text-align: center;
+}
+
+.logo img {
+    height: 50%;
+    width: 50%;
+}
+
+.pesu {
+    background-color: orange;       /*So that there isnt any white gaps between the phot and the div element below it*/
+}
+
+.pesu img {
+    width: 100vw;
+    height: 40%;
+}
+
+.footer {
+    background-color: orange;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(24, 24, 203);
+}
+
+.footer h1 {
+    display: inline-flex;       /* So that white background only fits the content of h1 and doesnt span entire viewport width*/
+    background-color: white;
+}
+
+.details {
+    background-color: rgb(255, 238, 203);
+    height: 40vh;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+@media(max-width : 700px){
+    .details{
+        font-size: 80%;
+    }
+}
